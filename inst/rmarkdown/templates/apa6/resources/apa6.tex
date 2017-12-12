@@ -41,7 +41,7 @@ $endif$
 \IfFileExists{microtype.sty}{\usepackage{microtype}}{}
 $if(natbib)$
 \usepackage{natbib}
-\bibliographystyle{$if(biblio-style)$$biblio-style$$else$plainnat$endif$}
+\bibliographystyle{unsrtnat}
 $endif$
 $if(biblatex)$
 \usepackage[backend=biber,style=$if(biblio-style)$$biblio-style$$else$apa$endif$,sortcites=false,sorting=none,doi,url]{biblatex}
